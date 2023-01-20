@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* Muli ExtraLight */
+
+  font-family: muli, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 0.5rem;
+}
+
+:root {
+  --primary--color: brown;
+  --secondary--color: purple;
+  --dark: #333;
+  --grey: #838383;
+  --white--grey: #f2f2f2;
+  --white: #fff;
+}
